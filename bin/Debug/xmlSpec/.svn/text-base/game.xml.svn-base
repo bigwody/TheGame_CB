@@ -1,0 +1,34 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<screen>
+  <screenWidth>640</screenWidth>
+  <screenHeight>480</screenHeight>
+</screen>
+
+<Font name="font">
+  <font>font/pirulen.ttf</font>
+  <fontSize>14</fontSize>
+</Font>
+
+<background>images/chekerboardsm.bmp</background>
+
+<redorb>
+  <redorbFile>images/redball.bmp</redorbFile>
+  <redorbSrcX>0</redorbSrcX>
+  <redorbSrcY>0</redorbSrcY>
+  <redorbWidth>32</redorbWidth>
+  <redorbHeight>32</redorbHeight>
+  <redorbLoc redorbX="10" redorbY="10"/>
+  <redorbSpeed redorbXspeed="250" redorbYspeed="250"/>
+  <redorbMaxSpeed redorbMaxXspeed="350" redorbMaxYspeed="300"/>
+  <redorbTransparency>true</redorbTransparency>
+</redorb>
+
+</GameData>

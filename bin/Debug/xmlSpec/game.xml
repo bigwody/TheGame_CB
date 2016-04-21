@@ -1,0 +1,362 @@
+<?xml version = "1.0"?>
+
+<GameData>
+<Font name="font">
+  <font>font/pirulen.ttf</font>
+  <fontSize>10</fontSize>
+</Font>
+<String>
+ <MaxSize>50</MaxSize>
+</String>
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+<screen>
+  <screenWidth>640</screenWidth>
+  <screenHeight>480</screenHeight>
+</screen>
+<world>
+  <worldWidth>12000</worldWidth>
+  <worldHeight>480</worldHeight>
+  <worldBackground1File>images/background1.bmp</worldBackground1File>
+      <worldBackground1Transparency>false</worldBackground1Transparency>
+      <worldBackground1Factor>3</worldBackground1Factor>
+      <worldBackground1Size worldBackground1Width="1280" worldBackground1Height="480"/>
+      <worldBackground1Src worldBackground1SrcX="1" worldBackground1SrcY="1"/>
+  <worldBackground2File>images/background2.bmp</worldBackground2File>
+      <worldBackground2Transparency>true</worldBackground2Transparency>
+      <worldBackground2Factor>2</worldBackground2Factor>
+      <worldBackground2Size worldBackground2Width="1280" worldBackground2Height="480"/>
+      <worldBackground2Src worldBackground2SrcX="1" worldBackground2SrcY="1"/>
+  <worldBackground3File>images/background3.bmp</worldBackground3File>
+      <worldBackground3Transparency>true</worldBackground3Transparency>
+      <worldBackground3Factor>2</worldBackground3Factor>
+      <worldBackground3Size worldBackground3Width="1280" worldBackground3Height="480"/>
+      <worldBackground3Src worldBackground3SrcX="1" worldBackground3SrcY="1"/>
+  <worldBackground4File>images/floor.bmp</worldBackground4File>
+      <worldBackground4Transparency>false</worldBackground4Transparency>
+      <worldBackground4Factor>2</worldBackground4Factor>
+      <worldBackground4Size worldBackground4Width="1280" worldBackground4Height="50"/>
+      <worldBackground4Src worldBackground4SrcX="0" worldBackground4SrcY="0"/>
+</world>
+<HUD>
+<HUDFile>images/hud.bmp</HUDFile>
+      <HUDTransparency>false</HUDTransparency>
+      <HUDSize HUDWidth="640" HUDHeight="68"/>
+      <HUDSrc HUDSrcX="0" HUDSrcY="0"/>
+</HUD>
+<Menu>
+<MenuFile>images/menu.bmp</MenuFile>
+      <MenuTransparency>true</MenuTransparency>
+      <MenuSize MenuWidth="640" MenuHeight="480"/>
+      <MenuSrc MenuSrcX="0" MenuSrcY="0"/>
+</Menu>
+<MenuBackground>
+<MenuBackgroundFile>images/menubackground.bmp</MenuBackgroundFile>
+      <MenuBackgroundTransparency>false</MenuBackgroundTransparency>
+      <MenuBackgroundSize MenuBackgroundWidth="640" MenuBackgroundHeight="480"/>
+      <MenuBackgroundSrc MenuBackgroundSrcX="0" MenuBackgroundSrcY="0"/>
+</MenuBackground>
+<player>
+  <playerFile>images/player.bmp</playerFile>
+      <playerChunks>10</playerChunks>
+      <playerTransparency>true</playerTransparency>
+      <playerAction>0</playerAction>
+      <playerRandomize>false</playerRandomize>
+      <playerBounceFactor>0</playerBounceFactor>
+      <playerSize playerWidth="880" playerHeight="114"/>
+      <playerSrc playerSrcX="1" playerSrcY="1"/>
+      <playerLoc playerXLoc="100" playerYLoc="360"/>
+      <playerSpeed playerXSpeed="0" playerYSpeed="0"/>
+      <playerMaxSpeed playerMaxXSpeed="300" playerMaxYSpeed="0"/>
+      <playerCount playerCountTotal="1" playerCountInitial="1"/>
+      <playerFrame playerFrameCount="16" playerFrameInterval="200"/>
+  <playerdeathFile>images/playerdeath.bmp</playerdeathFile>
+      <playerdeathSize playerdeathWidth="1110" playerdeathHeight="114"/>
+      <playerdeathTransparency>true</playerdeathTransparency>
+      <playerdeathAction>0</playerdeathAction>
+      <playerdeathRandomize>false</playerdeathRandomize>
+      <playerdeathBounceFactor>0</playerdeathBounceFactor>
+      <playerdeathSrc playerdeathSrcX="1" playerdeathSrcY="1"/>
+      <playerdeathLoc playerdeathXLoc="0" playerdeathYLoc="360"/>
+      <playerdeathSpeed playerdeathXSpeed="0" playerdeathYSpeed="0"/>
+      <playerdeathMaxSpeed playerdeathMaxXSpeed="300" playerdeathMaxYSpeed="0"/>
+      <playerdeathCount playerdeathCountTotal="1" playerdeathCountInitial="1"/>
+      <playerdeathFrame playerdeathFrameCount="10" playerdeathFrameInterval="200"/>
+</player>
+<enemy>
+  <enemyFile>images/enemy.bmp</enemyFile>
+      <enemyRange>300</enemyRange>
+      <enemySpacer>8</enemySpacer>
+      <enemyIncrement>2000</enemyIncrement>
+      <enemyChunks>10</enemyChunks>
+      <enemyTransparency>true</enemyTransparency>
+      <enemyAction>0</enemyAction>
+      <enemyRandomize>false</enemyRandomize>
+      <enemyBounceFactor>0</enemyBounceFactor>
+      <enemyAttackInterval>2000</enemyAttackInterval>
+      <enemyWeapon>"weapon2"</enemyWeapon>
+      <enemyExplodableWeapon>false</enemyExplodableWeapon>
+      <enemySize enemyWidth="880" enemyHeight="114"/>
+      <enemySrc enemySrcX="1" enemySrcY="1"/>
+      <enemyLoc enemyXLoc="2700" enemyYLoc="360"/>
+      <enemySpeed enemyXSpeed="150" enemyYSpeed="0"/>
+      <enemyMaxSpeed enemyMaxXSpeed="300" enemyMaxYSpeed="0"/>
+      <enemyCount enemyCountTotal="1" enemyCountInitial="1"/>
+      <enemyFrame enemyFrameCount="16" enemyFrameInterval="200"/>
+</enemy>
+<enemy1>
+  <enemy1File>images/enemy2.bmp</enemy1File>
+      <enemy1Range>300</enemy1Range>
+      <enemy1Spacer>4</enemy1Spacer>
+      <enemy1Increment>2000</enemy1Increment>
+      <enemy1Chunks>10</enemy1Chunks>
+      <enemy1Transparency>true</enemy1Transparency>
+      <enemy1Action>0</enemy1Action>
+      <enemy1Randomize>false</enemy1Randomize>
+      <enemy1BounceFactor>0</enemy1BounceFactor>
+      <enemy1AttackInterval>2000</enemy1AttackInterval>
+      <enemy1Weapon>"weapon2"</enemy1Weapon>
+      <enemy1ExplodableWeapon>true</enemy1ExplodableWeapon>
+      <enemy1Size enemy1Width="672" enemy1Height="89"/>
+      <enemy1Src enemy1SrcX="1" enemy1SrcY="1"/>
+      <enemy1Loc enemy1XLoc="1700" enemy1YLoc="385"/>
+      <enemy1Speed enemy1XSpeed="150" enemy1YSpeed="0"/>
+      <enemy1MaxSpeed enemy1MaxXSpeed="300" enemy1MaxYSpeed="0"/>
+      <enemy1Count enemy1CountTotal="1" enemy1CountInitial="1"/>
+      <enemy1Frame enemy1FrameCount="8" enemy1FrameInterval="200"/>
+</enemy1>
+<boss>
+  <bossFile>images/boss.bmp</bossFile>
+      <bossRange>300</bossRange>
+      <bossSpacer>0</bossSpacer>
+      <bossIncrement>10000</bossIncrement>
+      <bossChunks>10</bossChunks>
+      <bossTransparency>true</bossTransparency>
+      <bossAction>0</bossAction>
+      <bossRandomize>false</bossRandomize>
+      <bossBounceFactor>0</bossBounceFactor>
+      <bossAttackInterval>2000</bossAttackInterval>
+      <bossWeapon>"weapon2"</bossWeapon>
+      <bossExplodableWeapon>true</bossExplodableWeapon>
+      <bossSize bossWidth="1778" bossHeight="228"/>
+      <bossSrc bossSrcX="1" bossSrcY="1"/>
+      <bossLoc bossXLoc="11150" bossYLoc="240"/>
+      <bossSpeed bossXSpeed="150" bossYSpeed="0"/>
+      <bossMaxSpeed bossMaxXSpeed="300" bossMaxYSpeed="0"/>
+      <bossCount bossCountTotal="1" bossCountInitial="1"/>
+      <bossFrame bossFrameCount="16" bossFrameInterval="300"/>
+</boss>
+<crowenemy>
+  <crowenemyFile>images/crowAnim.bmp</crowenemyFile>
+      <crowenemyRange>300</crowenemyRange>
+      <crowenemySpacer>0</crowenemySpacer>
+      <crowenemyIncrement>1500</crowenemyIncrement>
+      <crowenemyChunks>10</crowenemyChunks>
+      <crowenemyTransparency>true</crowenemyTransparency>
+      <crowenemyAction>0</crowenemyAction>
+      <crowenemyRandomize>false</crowenemyRandomize>
+      <crowenemyBounceFactor>0</crowenemyBounceFactor>
+      <crowenemyAttackInterval>2000</crowenemyAttackInterval>
+      <crowenemySize crowenemyWidth="464" crowenemyHeight="37"/>
+      <crowenemySrc crowenemySrcX="1" crowenemySrcY="1"/>
+      <crowenemyLoc crowenemyXLoc="800" crowenemyYLoc="360"/>
+      <crowenemySpeed crowenemyXSpeed="150" crowenemyYSpeed="0"/>
+      <crowenemyMaxSpeed crowenemyMaxXSpeed="300" crowenemyMaxYSpeed="0"/>
+      <crowenemyCount crowenemyCountTotal="1" crowenemyCountInitial="1"/>
+      <crowenemyFrame crowenemyFrameCount="8" crowenemyFrameInterval="200"/>
+</crowenemy>
+<crow>
+  <crowChunks>10</crowChunks>
+  <crowFile>images/crowAnim.bmp</crowFile>
+  <crowAction>1</crowAction>
+  <crowRandomize>true</crowRandomize>
+  <crowTransparency>true</crowTransparency>
+  <crowAnimated>true</crowAnimated>
+  <crowBounceFactor>3</crowBounceFactor>
+  <crowSize crowWidth="464" crowHeight="37"/>
+  <crowSrc crowSrcX="1" crowSrcY="1"/>
+  <crowLoc crowXLoc="10" crowYLoc="100"/>
+  <crowSpeed crowXSpeed="200" crowYSpeed="50"/>
+  <crowMaxSpeed crowMaxXSpeed="250" crowMaxYSpeed="50"/>
+  <crowCount crowCountTotal="20" crowCountInitial="20"/>
+  <crowFrame crowFrameCount="8" crowFrameInterval="150"/>
+</crow>
+
+<weapon0>
+  <weapon0Chunks>10</weapon0Chunks>
+  <weapon0File>images/weapon0.bmp</weapon0File>
+  <weapon0Transparency>true</weapon0Transparency>
+  <weapon0Animated>true</weapon0Animated>
+  <weapon0Action>3</weapon0Action>
+  <weapon0Randomize>false</weapon0Randomize>
+  <weapon0BounceFactor>1</weapon0BounceFactor>
+  <weapon0Size weapon0Width="256" weapon0Height="32"/>
+  <weapon0Src weapon0SrcX="1" weapon0SrcY="1"/>
+  <weapon0Loc weapon0XLoc="10" weapon0YLoc="50"/>
+  <weapon0Speed weapon0XSpeed="600" weapon0YSpeed="10"/>
+  <weapon0MaxSpeed weapon0MaxXSpeed="700" weapon0MaxYSpeed="300"/>
+  <weapon0Count weapon0CountTotal="10" weapon0CountInitial="0"/>
+  <weapon0Frame weapon0FrameCount="8" weapon0FrameInterval="50"/>
+</weapon0>
+<weapon1>
+  <weapon1Increment>0</weapon1Increment>
+  <weapon1Chunks>10</weapon1Chunks>
+  <weapon1File>images/weapon1.bmp</weapon1File>
+  <weapon1Transparency>true</weapon1Transparency>
+  <weapon1Animated>true</weapon1Animated>
+  <weapon1Action>0</weapon1Action>
+  <weapon1Randomize>false</weapon1Randomize>
+  <weapon1BounceFactor>1</weapon1BounceFactor>
+  <weapon1Size weapon1Width="128" weapon1Height="32"/>
+  <weapon1Src weapon1SrcX="1" weapon1SrcY="1"/>
+  <weapon1Loc weapon1XLoc="10" weapon1YLoc="50"/>
+  <weapon1Speed weapon1XSpeed="500" weapon1YSpeed="-300"/>
+  <weapon1MaxSpeed weapon1MaxXSpeed="300" weapon1MaxYSpeed="300"/>
+  <weapon1Count weapon1CountTotal="10" weapon1CountInitial="0"/>
+  <weapon1Frame weapon1FrameCount="4" weapon1FrameInterval="40"/>
+</weapon1>
+<weapon2>
+  <weapon2Chunks>10</weapon2Chunks>
+  <weapon2File>images/weapon2.bmp</weapon2File>
+  <weapon2Increment>0</weapon2Increment>
+  <weapon2Transparency>true</weapon2Transparency>
+  <weapon2Animated>true</weapon2Animated>
+  <weapon2Action>0</weapon2Action>
+  <weapon2Randomize>false</weapon2Randomize>
+  <weapon2BounceFactor>1</weapon2BounceFactor>
+  <weapon2Size weapon2Width="320" weapon2Height="40"/>
+  <weapon2Src weapon2SrcX="1" weapon2SrcY="1"/>
+  <weapon2Loc weapon2XLoc="10" weapon2YLoc="50"/>
+  <weapon2Speed weapon2XSpeed="300" weapon2YSpeed="-200"/>
+  <weapon2MaxSpeed weapon2MaxXSpeed="300" weapon2MaxYSpeed="300"/>
+  <weapon2Count weapon2CountTotal="10" weapon2CountInitial="0"/>
+  <weapon2Frame weapon2FrameCount="8" weapon2FrameInterval="50"/>
+</weapon2>
+<weapon3>
+  <weapon3Chunks>10</weapon3Chunks>
+  <weapon3File>images/weapon3.bmp</weapon3File>
+  <weapon3Transparency>true</weapon3Transparency>
+  <weapon3Animated>true</weapon3Animated>
+  <weapon3Action>0</weapon3Action>
+  <weapon3Randomize>true</weapon3Randomize>
+  <weapon3BounceFactor>3</weapon3BounceFactor>
+  <weapon3Size weapon3Width="128" weapon3Height="32"/>
+  <weapon3Src weapon3SrcX="1" weapon3SrcY="1"/>
+  <weapon3Loc weapon3XLoc="10" weapon3YLoc="200"/>
+  <weapon3Speed weapon3XSpeed="300" weapon3YSpeed="-200"/>
+  <weapon3MaxSpeed weapon3MaxXSpeed="300" weapon3MaxYSpeed="300"/>
+  <weapon3Count weapon3CountTotal="10" weapon3CountInitial="0"/>
+  <weapon3Frame weapon3FrameCount="4" weapon3FrameInterval="80"/>
+</weapon3>
+<weapon4>
+  <weapon4Chunks>10</weapon4Chunks>
+  <weapon4File>images/weapon4.bmp</weapon4File>
+  <weapon4Transparency>true</weapon4Transparency>
+  <weapon4Animated>true</weapon4Animated>
+  <weapon4Action>0</weapon4Action>
+  <weapon4Randomize>true</weapon4Randomize>
+  <weapon4BounceFactor>3</weapon4BounceFactor>
+  <weapon4Size weapon4Width="256" weapon4Height="64"/>
+  <weapon4Src weapon4SrcX="1" weapon4SrcY="1"/>
+  <weapon4Loc weapon4XLoc="10" weapon4YLoc="200"/>
+  <weapon4Speed weapon4XSpeed="300" weapon4YSpeed="-200"/>
+  <weapon4MaxSpeed weapon4MaxXSpeed="300" weapon4MaxYSpeed="300"/>
+  <weapon4Count weapon4CountTotal="10" weapon4CountInitial="0"/>
+  <weapon4Frame weapon4FrameCount="4" weapon4FrameInterval="80"/>
+</weapon4>
+<ball>
+  <ballChunks>10</ballChunks>
+  <ballFile>images/ball.bmp</ballFile>
+  <ballTransparency>true</ballTransparency>
+  <ballAnimated>false</ballAnimated>
+  <ballAction>2</ballAction>
+  <ballRandomize>true</ballRandomize>
+  <ballBounceFactor>3</ballBounceFactor>
+  <ballSize ballWidth="32" ballHeight="32"/>
+  <ballSrc ballSrcX="0" ballSrcY="0"/>
+  <ballLoc ballXLoc="10" ballYLoc="200"/>
+  <ballSpeed ballXSpeed="300" ballYSpeed="200"/>
+  <ballMaxSpeed ballMaxXSpeed="300" ballMaxYSpeed="300"/>
+  <ballCount ballCountTotal="1000" ballCountInitial="0"/>
+  <ballFrameCount>1</ballFrameCount>
+</ball>
+<item>
+  <itemChunks>10</itemChunks>
+  <itemFile>images/item.bmp</itemFile>
+  <itemTransparency>true</itemTransparency>
+  <itemAnimated>false</itemAnimated>
+  <itemAction>0</itemAction>
+  <itemRandomize>false</itemRandomize>
+  <itemBounceFactor>1</itemBounceFactor>
+  <itemSize itemWidth="32" itemHeight="42"/>
+  <itemSrc itemSrcX="1" itemSrcY="1"/>
+  <itemLoc itemXLoc="-100" itemYLoc="200"/>
+  <itemSpeed itemXSpeed="0" itemYSpeed="0"/>
+  <itemMaxSpeed itemMaxXSpeed="300" itemMaxYSpeed="300"/>
+  <itemCount itemCountTotal="100" itemCountInitial="3"/>
+  <itemFrameCount>1</itemFrameCount>
+</item>
+<animatedblock>
+  <animatedblockFile>images/animatedblock.bmp</animatedblockFile>
+  <animatedblockTransparency>true</animatedblockTransparency>
+  <animatedblockAnimated>true</animatedblockAnimated>
+  <animatedblockSpacer>0</animatedblockSpacer>
+  <animatedblockRange>300</animatedblockRange>
+  <animatedblockAction>5</animatedblockAction>
+  <animatedblockIncrement>1000</animatedblockIncrement>
+  <animatedblockRandomize>false</animatedblockRandomize>
+  <animatedblockBounceFactor>0</animatedblockBounceFactor>
+  <animatedblockChunks>10</animatedblockChunks>
+  <animatedblockSize animatedblockWidth="320" animatedblockHeight="61"/>
+  <animatedblockSrc animatedblockSrcX="1" animatedblockSrcY="1"/>
+  <animatedblockLoc animatedblockXLoc="668" animatedblockYLoc="100"/>
+  <animatedblockSpeed animatedblockXSpeed="100" animatedblockYSpeed="0"/>
+  <animatedblockMaxSpeed animatedblockMaxXSpeed="200" animatedblockMaxYSpeed="300"/>
+  <animatedblockCount animatedblockCountTotal="1" animatedblockCountInitial="0"/>
+  <animatedblockFrame animatedblockFrameCount="5" animatedblockFrameInterval="120"/>
+</animatedblock>
+<platform>
+  <platformFile>images/platform.bmp</platformFile>
+  <platformTransparency>true</platformTransparency>
+  <platformIncrement>1000</platformIncrement>
+  <platformAction>5</platformAction>
+  <platformRandomize>false</platformRandomize>
+  <platformBounceFactor>0</platformBounceFactor>
+  <platformSize platformWidth="300" platformHeight="52"/>
+  <platformSrc platformSrcX="0" platformSrcY="0"/>
+  <platformLoc platformXLoc="1700" platformYLoc="250"/>
+  <platformSpeed platformXSpeed="0" platformYSpeed="0"/>
+  <platformMaxSpeed platformMaxXSpeed="0" platformMaxYSpeed="0"/>
+  <platformFrame platformFrameCount="1" platformFrameInterval="0"/>
+</platform>
+<surfboard>
+  <surfboardFile>images/surfboard.bmp</surfboardFile>
+  <surfboardTransparency>true</surfboardTransparency>
+  <surfboardIncrement>1000</surfboardIncrement>
+  <surfboardAction>0</surfboardAction>
+  <surfboardRandomize>false</surfboardRandomize>
+  <surfboardBounceFactor>1</surfboardBounceFactor>
+  <surfboardSize surfboardWidth="200" surfboardHeight="52"/>
+  <surfboardSrc surfboardSrcX="1" surfboardSrcY="1"/>
+  <surfboardLoc surfboardXLoc="5000" surfboardYLoc="400"/>
+  <surfboardSpeed surfboardXSpeed="0" surfboardYSpeed="0"/>
+  <surfboardMaxSpeed surfboardMaxXSpeed="100" surfboardMaxYSpeed="0"/>
+  <surfboardFrame surfboardFrameCount="1" surfboardFrameInterval="0"/>
+</surfboard>
+<couch>
+  <couchFile>images/couch.bmp</couchFile>
+  <couchTransparency>true</couchTransparency>
+  <couchIncrement>1000</couchIncrement>
+  <couchAction>0</couchAction>
+  <couchRandomize>false</couchRandomize>
+  <couchBounceFactor>1</couchBounceFactor>
+  <couchSize couchWidth="250" couchHeight="80"/>
+  <couchSrc couchSrcX="1" couchSrcY="1"/>
+  <couchLoc couchXLoc="350" couchYLoc="396"/>
+  <couchSpeed couchXSpeed="0" couchYSpeed="10"/>
+  <couchMaxSpeed couchMaxXSpeed="0" couchMaxYSpeed="100"/>
+  <couchFrame couchFrameCount="1" couchFrameInterval="0"/>
+</couch>
+</GameData>

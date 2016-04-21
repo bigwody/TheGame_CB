@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TheGame_CB" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TheGame_CB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TheGame_CB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../SDL/SDL-1.2.14/include/SDL" />
+			<Add directory="../SDL/SDL_image-1.2.10/include" />
+			<Add directory="../SDL/SDL_mixer-1.2.11/include" />
+			<Add directory="../SDL/SDL_ttf-2.0.10/include" />
+			<Add directory="../Boost" />
+			<Add directory="../lib/Expat 2.1.1/Source/lib" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer -lexpat" />
+			<Add directory="../SDL/SDL_image-1.2.10/lib" />
+			<Add directory="../SDL/SDL_mixer-1.2.11/lib" />
+			<Add directory="../SDL/SDL_ttf-2.0.10/lib" />
+			<Add directory="../SDL/SDL-1.2.14/lib" />
+			<Add directory="../lib/Expat 2.1.1/Bin" />
+		</Linker>
+		<Unit filename="Sources/SDL.h" />
+		<Unit filename="Sources/aaline.cpp" />
+		<Unit filename="Sources/aaline.h" />
+		<Unit filename="Sources/abstractfactory.h" />
+		<Unit filename="Sources/animatedsprite.cpp" />
+		<Unit filename="Sources/animatedsprite.h" />
+		<Unit filename="Sources/animationfactory.cpp" />
+		<Unit filename="Sources/animationfactory.h" />
+		<Unit filename="Sources/bosssprite.cpp" />
+		<Unit filename="Sources/bosssprite.h" />
+		<Unit filename="Sources/clock.cpp" />
+		<Unit filename="Sources/clock.h" />
+		<Unit filename="Sources/collisionstrategy.cpp" />
+		<Unit filename="Sources/collisionstrategy.h" />
+		<Unit filename="Sources/drawable.h" />
+		<Unit filename="Sources/enemysprite.cpp" />
+		<Unit filename="Sources/enemysprite.h" />
+		<Unit filename="Sources/explodableanimatedsprite.cpp" />
+		<Unit filename="Sources/explodableanimatedsprite.h" />
+		<Unit filename="Sources/explodingsprite.cpp" />
+		<Unit filename="Sources/explodingsprite.h" />
+		<Unit filename="Sources/explosion.cpp" />
+		<Unit filename="Sources/explosion.h" />
+		<Unit filename="Sources/explosionfactory.cpp" />
+		<Unit filename="Sources/explosionfactory.h" />
+		<Unit filename="Sources/frame.cpp" />
+		<Unit filename="Sources/frame.h" />
+		<Unit filename="Sources/gamedata.cpp" />
+		<Unit filename="Sources/gamedata.h" />
+		<Unit filename="Sources/hud.h" />
+		<Unit filename="Sources/ioManager.cpp" />
+		<Unit filename="Sources/ioManager.h" />
+		<Unit filename="Sources/main.cpp" />
+		<Unit filename="Sources/manager.cpp" />
+		<Unit filename="Sources/manager.h" />
+		<Unit filename="Sources/menu.h" />
+		<Unit filename="Sources/parseXML.cpp" />
+		<Unit filename="Sources/parseXML.h" />
+		<Unit filename="Sources/playermanager.cpp" />
+		<Unit filename="Sources/playermanager.h" />
+		<Unit filename="Sources/playersprite.cpp" />
+		<Unit filename="Sources/playersprite.h" />
+		<Unit filename="Sources/playerweapon.cpp" />
+		<Unit filename="Sources/playerweapon.h" />
+		<Unit filename="Sources/scenerysprite.cpp" />
+		<Unit filename="Sources/scenerysprite.h" />
+		<Unit filename="Sources/smartsprite.cpp" />
+		<Unit filename="Sources/smartsprite.h" />
+		<Unit filename="Sources/sound.cpp" />
+		<Unit filename="Sources/sound.h" />
+		<Unit filename="Sources/sprite.cpp" />
+		<Unit filename="Sources/sprite.h" />
+		<Unit filename="Sources/spritefactory.cpp" />
+		<Unit filename="Sources/spritefactory.h" />
+		<Unit filename="Sources/spritemanager.cpp" />
+		<Unit filename="Sources/spritemanager.h" />
+		<Unit filename="Sources/vector2f.cpp" />
+		<Unit filename="Sources/vector2f.h" />
+		<Unit filename="Sources/viewport.cpp" />
+		<Unit filename="Sources/viewport.h" />
+		<Unit filename="Sources/world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

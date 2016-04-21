@@ -1,0 +1,63 @@
+1. Name:
+    Jacob Wood
+2. email address:
+    jtwood@g.clemson.edu
+3. Project Number:
+    Project 4
+4. Brief Project Description:
+    - Alter existing program to allow an Aggregation 
+      of Sprites, Player Class, Explosions, Collision
+      Detection, and Score
+    - Allow no memory leaks checking with valgrind
+    - Use Graphics editor for building your own sprites
+5. Strenghts of the project: (what I implemented correctly)
+    - Implemented all requirements
+    - no memory leaks
+6. Defiencies of the project: (what I didn't implement)
+    - don't think there are any
+7. Additions, extensions or modifications of the Specification:lasses for an aggregation of Sprites, an animated Sprite, 
+    an aggregation of animated sprites, 
+    - EnemySprite with AI
+    - Player Health 
+    - maybe some other stuff
+    
+***********************************
+        CONTROLS
+        
+    r       - tracks player
+    t       - tracks enemy
+    d       - kills player
+    n       - revives player
+    1-4     - selects player weapon
+    CTRl    - throw object downward
+    RShift  - throw object upward
+    SPACE   - throw object forward
+    RIGHT   - move player right
+    LEFT    - move player left
+    UP      - make player jump
+    DOWN    - make player crouch
+    TAB     - toggle HUD
+***********************************
+        XML VALUES
+  
+  Actions
+    Bounce  - sprite will bounce around
+    Wrap    - sprite goes back to start after going off screen
+    Sticky  - sprite sticks on right side of frame
+    Fall    - sprite falls to ground after reach right edge
+  Count
+    Total     - number of sprites to create
+    Initial   - number of sprites to draw at first
+  Other
+    Increment - spacing for recycled sprites
+***********************************
+        PARAGRAPH
+
+    For my final project I have created a side scrolling game similar to
+  Super Mario Bros.  The player must battle their way to the end of the level and
+  defeat any enemies along the way using various weapons. I have included health
+  and score as well.  There is a boss at the end of the level.  The player can jump 
+  on top of an enemy to kill them and the jump from there as well.
+  
+***********************************
+      

@@ -1,0 +1,510 @@
+# depslib dependency file v1.0
+1459539881 source:c:\myprojects\thegame_cb\sources\aaline.cpp
+	<algorithm>
+	<cmath>
+	<SDL.h>
+	<stdio.h>
+	"aaline.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404782 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\begin_code.h
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\close_code.h
+
+1460404782 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404782 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404782 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404783 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404782 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1335277367 c:\myprojects\thegame_cb\sources\aaline.h
+	<stdint.h>
+	<SDL.h>
+
+1335380473 source:c:\myprojects\thegame_cb\sources\animatedsprite.cpp
+	"animatedsprite.h"
+
+1335386019 c:\myprojects\thegame_cb\sources\animatedsprite.h
+	<iostream>
+	"sprite.h"
+	"animationfactory.h"
+
+1335300498 c:\myprojects\thegame_cb\sources\sprite.h
+	<string>
+	<iostream>
+	<cmath>
+	"drawable.h"
+	"frame.h"
+	"clock.h"
+	"spritefactory.h"
+
+1332876968 c:\myprojects\thegame_cb\sources\drawable.h
+	<SDL.h>
+	<iostream>
+	"vector2f.h"
+
+1459539892 c:\myprojects\thegame_cb\sources\vector2f.h
+	<iostream>
+
+1459544871 c:\myprojects\thegame_cb\sources\frame.h
+	<iostream>
+	<string>
+	<SDL.h>
+	"ioManager.h"
+
+1459542990 c:\myprojects\thegame_cb\sources\iomanager.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<string>
+	<sstream>
+
+1460404774 c:\myprojects\sdl\sdl_ttf-2.0.10\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404745 c:\myprojects\sdl\sdl_image-1.2.10\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1335130585 c:\myprojects\thegame_cb\sources\clock.h
+	<SDL.h>
+	<string>
+	<iostream>
+	<fstream>
+	"sound.h"
+
+1459539885 c:\myprojects\thegame_cb\sources\sound.h
+	<iostream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<SDL.h>
+	<SDL_mixer.h>
+
+1460404771 c:\myprojects\sdl\sdl_mixer-1.2.11\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460404782 c:\myprojects\sdl\sdl-1.2.14\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1330387767 c:\myprojects\thegame_cb\sources\spritefactory.h
+	"abstractfactory.h"
+
+1330387803 c:\myprojects\thegame_cb\sources\abstractfactory.h
+	<string>
+	<map>
+	"frame.h"
+	"gamedata.h"
+
+1329758452 c:\myprojects\thegame_cb\sources\gamedata.h
+	<string>
+	<sstream>
+	<map>
+	"parseXML.h"
+
+1327549192 c:\myprojects\thegame_cb\sources\parsexml.h
+	<iostream>
+	<fstream>
+	<string>
+	<map>
+	<expat.h>
+
+1457812128 c:\myprojects\lib\expat 2.1.1\source\lib\expat.h
+	<stdlib.h>
+	"expat_external.h"
+
+1457812128 c:\myprojects\lib\expat 2.1.1\source\lib\expat_external.h
+
+1330387775 c:\myprojects\thegame_cb\sources\animationfactory.h
+	"abstractfactory.h"
+
+1332917526 source:c:\myprojects\thegame_cb\sources\animationfactory.cpp
+	"animationfactory.h"
+
+1335418672 source:c:\myprojects\thegame_cb\sources\bosssprite.cpp
+	"bosssprite.h"
+
+1335417252 c:\myprojects\thegame_cb\sources\bosssprite.h
+	"smartsprite.h"
+	"spritemanager.h"
+
+1335386092 c:\myprojects\thegame_cb\sources\smartsprite.h
+	<iostream>
+	"explodableanimatedsprite.h"
+	"animationfactory.h"
+	"viewport.h"
+
+1334939627 c:\myprojects\thegame_cb\sources\explodableanimatedsprite.h
+	<string>
+	<iostream>
+	<cmath>
+	"animatedsprite.h"
+	"explodingsprite.h"
+	"viewport.h"
+
+1334939329 c:\myprojects\thegame_cb\sources\explodingsprite.h
+	<vector>
+	<iostream>
+	"explosion.h"
+
+1332877895 c:\myprojects\thegame_cb\sources\explosion.h
+	<iostream>
+	"sprite.h"
+	"gamedata.h"
+
+1333657995 c:\myprojects\thegame_cb\sources\viewport.h
+	"sprite.h"
+
+1335406139 c:\myprojects\thegame_cb\sources\spritemanager.h
+	<iostream>
+	"animatedsprite.h"
+	<list>
+
+1335395127 source:c:\myprojects\thegame_cb\sources\clock.cpp
+	<iostream>
+	<map>
+	<sstream>
+	"clock.h"
+
+1459286906 source:c:\myprojects\thegame_cb\sources\collisionstrategy.cpp
+	"ioManager.h"
+	"collisionstrategy.h"
+
+1333493143 c:\myprojects\thegame_cb\sources\collisionstrategy.h
+	<cmath>
+	"playersprite.h"
+	<vector>
+	<algorithm>
+	"viewport.h"
+
+1335387319 c:\myprojects\thegame_cb\sources\playersprite.h
+	<iostream>
+	"sprite.h"
+	"animationfactory.h"
+	"playerweapon.h"
+	"viewport.h"
+	<algorithm>
+
+1335367675 c:\myprojects\thegame_cb\sources\playerweapon.h
+	<iostream>
+	"gamedata.h"
+	"explodableanimatedsprite.h"
+	<vector>
+
+1335366637 source:c:\myprojects\thegame_cb\sources\enemymanager.cpp
+	"enemymanager.h"
+
+1335366618 c:\myprojects\thegame_cb\sources\enemymanager.h
+	"smartsprite.h"
+
+1335415831 source:c:\myprojects\thegame_cb\sources\enemysprite.cpp
+	"enemysprite.h"
+
+1335419766 c:\myprojects\thegame_cb\sources\enemysprite.h
+	"smartsprite.h"
+
+1334939623 source:c:\myprojects\thegame_cb\sources\explodableanimatedsprite.cpp
+	"explodableanimatedsprite.h"
+
+1334243136 source:c:\myprojects\thegame_cb\sources\explodingsprite.cpp
+	<iostream>
+	<cmath>
+	"explodingsprite.h"
+	"ioManager.h"
+	"explosionfactory.h"
+	"gamedata.h"
+
+1330639929 c:\myprojects\thegame_cb\sources\explosionfactory.h
+	"abstractfactory.h"
+
+1333676526 source:c:\myprojects\thegame_cb\sources\explosion.cpp
+	<iostream>
+	<cmath>
+	"explosion.h"
+
+1333487723 source:c:\myprojects\thegame_cb\sources\explosionfactory.cpp
+	"explosionfactory.h"
+	"ioManager.h"
+
+1334082081 source:c:\myprojects\thegame_cb\sources\frame.cpp
+	"drawable.h"
+	"frame.h"
+	"ioManager.h"
+	"viewport.h"
+
+1329758947 source:c:\myprojects\thegame_cb\sources\gamedata.cpp
+	"gamedata.h"
+
+1459544850 source:c:\myprojects\thegame_cb\sources\iomanager.cpp
+	<iostream>
+	<iomanip>
+	"gamedata.h"
+	"ioManager.h"
+
+1459544748 source:c:\myprojects\thegame_cb\sources\main.cpp
+	"manager.h"
+
+1460400982 c:\myprojects\thegame_cb\sources\manager.h
+	<SDL.h>
+	<iostream>
+	<string>
+	"world.h"
+	"hud.h"
+	"menu.h"
+	"playersprite.h"
+	"enemysprite.h"
+	"bosssprite.h"
+	"spritemanager.h"
+	"scenerysprite.h"
+	"collisionstrategy.h"
+
+1335366906 c:\myprojects\thegame_cb\sources\world.h
+	"viewport.h"
+	"gamedata.h"
+	"spritefactory.h"
+
+1335419314 c:\myprojects\thegame_cb\sources\hud.h
+	"gamedata.h"
+	"ioManager.h"
+	"animationfactory.h"
+
+1335395098 c:\myprojects\thegame_cb\sources\menu.h
+	"gamedata.h"
+	"ioManager.h"
+	"aaline.h"
+
+1334173834 c:\myprojects\thegame_cb\sources\scenerysprite.h
+	<string>
+	<iostream>
+	<cmath>
+	"sprite.h"
+	"viewport.h"
+
+1459544732 source:c:\myprojects\thegame_cb\sources\manager.cpp
+	"manager.h"
+
+1459543294 source:c:\myprojects\thegame_cb\sources\parsexml.cpp
+	<cstring>
+	<sstream>
+	"parseXML.h"
+
+1335365526 source:c:\myprojects\thegame_cb\sources\playermanager.cpp
+	"playermanager.h"
+
+1335365637 c:\myprojects\thegame_cb\sources\playermanager.h
+	"playersprite.h"
+
+1335420014 source:c:\myprojects\thegame_cb\sources\playersprite.cpp
+	"playersprite.h"
+
+1335366567 source:c:\myprojects\thegame_cb\sources\playerweapon.cpp
+	"playerweapon.h"
+
+1335416037 source:c:\myprojects\thegame_cb\sources\scenerysprite.cpp
+	"scenerysprite.h"
+
+1335407991 source:c:\myprojects\thegame_cb\sources\smartsprite.cpp
+	"smartsprite.h"
+
+1335419676 source:c:\myprojects\thegame_cb\sources\sound.cpp
+	<ctime>
+	"sound.h"
+
+1335420146 source:c:\myprojects\thegame_cb\sources\sprite.cpp
+	"sprite.h"
+
+1329935634 source:c:\myprojects\thegame_cb\sources\spritefactory.cpp
+	"spritefactory.h"
+	"ioManager.h"
+
+1335366788 source:c:\myprojects\thegame_cb\sources\spritemanager.cpp
+	"spritemanager.h"
+
+1330466566 source:c:\myprojects\thegame_cb\sources\vector2f.cpp
+	<cmath>
+	<string>
+	<iostream>
+	"vector2f.h"
+
+1335386830 source:c:\myprojects\thegame_cb\sources\viewport.cpp
+	"viewport.h"
+
